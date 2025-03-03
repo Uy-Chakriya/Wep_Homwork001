@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form In HTML </title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend><h1>We appreciate your sharing!</h1></legend>
+        <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        
+        <option value="male">Male</option>
+        <option value="female">Female</option><br><br>
+    </select><br>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required> <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="" name="profile"><br><br>
+
+    <label for="profile">Profile:</label>
+    <input type="file" id="profile" name="profile"><br><br>
+
+    <label for="contact">Local's Contact:</label>
+    <input type="text" id="contact" name="contact" placeholder="Format: 123-456-7890" required><br><br>
+
+    <label>Among those places, how many have you <b>visited</b> ?</label><br><br>
+    
+    <input type="checkbox" id="koh-touch" name="visited" value="Koh Touch">
+    <label for="koh-touch">Koh Touch</label>
+
+    <input type="checkbox" id="long-beach" name="visited" value="Long Set Beach"> 
+    <label for="long-beach">Long Set Beach</label>
+    
+    <input type="checkbox" id="sok-sanh-beach" name="visited" value="Sok San Beach">
+    <label for="sok-sanh-beach">Sok San Beach</label>
+    
+    <input type="checkbox" id="prek-svay" name="visited" value="Prek Svay">
+    <label for="prek-svay">Prek Svay</label><br><br>
+    
+    <label>Overall Experience:</label>
+    <input type= "range" min="1" max="5" value="3" id="experience" name="experience"><br><br>
+    <label>Too Bad Experience:</label>
+    <input type="range" min="1" max="5" value="3" id="average" name="average"><br><br>
+    <label>Satisfied:</label>
+    <input type="range" min="1" max="5" value="3" id="satisfied" name="satisfied"><br><br>
+
+
+    <!-- <label for="feedback">Please give us your overall feedback:</label><br><br> -->
+    <textarea id="feedback" name="feedback" rows="4" placeholder="Please give us your overall feedback:"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+</fieldset>
+
+<p>If you have any issues, please reach out to <a href="mailto:info.khard@gmail.com">info.khard@gmail.com</a>.</p>  
+</body>
+</html>
+</body>
+</html>

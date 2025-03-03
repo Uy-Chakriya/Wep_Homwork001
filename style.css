@@ -1,0 +1,98 @@
+/* TO DO ADD FONT */
+/* roboto */
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    font-family: "Roboto", serif;
+    font-family: "Kantumruy Pro", serif;
+    padding: auto;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+table, th,td{
+    border: 1px solid rgb(232, 154, 154);
+    border-collapse: collapse;
+    height: 50px;
+    
+    
+}
+.table_head{
+   
+    background-color: rgb(249, 197, 191);
+    
+}
+.product_List, .music_list {
+
+    color: blue;
+    font-weight: 600;
+    
+}
+.music_list
+{
+    
+    font-weight: 600;
+}
+/* Enflish song */
+#english_song{
+    font-weight: 600;
+    
+}
+.english {
+    color: rgb(10, 154, 194);
+}
+.english_song4{
+    color: rgb(228, 133, 133);
+    font-weight: 500;
+}
+ol{
+    font-weight: 500;
+}
+ul{
+    list-style-type: lower-greek;
+}
+/* Image as a list */
+#kh_ul {
+    list-style-image: url('../image/music.png');
+    font-family: "Kantumruy Pro", serif;
+    }
+#en_ul {
+    list-style-image: url('../image/music.png');
+    }
+/*============ Styling link ============ */
+
+a{
+    text-decoration: none;
+    color: rgb(106, 147, 236);
+    font-weight: 600;
+}
+/* ===link */
+a:link{
+    color: rgb(106, 147, 236);
+}
+
+/* ===Visited */
+a:visited{
+    color: rgb(72, 196, 240);
+}
+
+/* ===Hover */
+a:hover{
+    color: rgb(8, 0, 238);
+    background-color: rgb(219, 237, 239);
+}
+
+/* ===Active */
+a:active{
+    color: rgb(37, 206, 88);
+    background-color: rgb(249, 249, 249);
+}
+
+    
